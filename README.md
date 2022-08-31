@@ -4,12 +4,12 @@
    - Postgres
    - Sonarqube
 
-#### Jenkins
+### Jenkins
 **credentials:**
    - username: Admin 
    - password: the password can be found at: **/var/jenkins_home/secrets/initialAdminPassword**
 
-#### Sonarqube
+### Sonarqube
 **credentials:**
    - login: admin
    - password: admin
