@@ -16,6 +16,9 @@ ___
 **credentials:**
    - username: admin
    - password: the password can be found at: **/nexus-data/admin.password**
+   
+Nexus can be added in your java project and therefore it's possible to push an artifact into Nexus.<br>
+**See:** https://www.baeldung.com/maven-deploy-nexus
 
 ___
 
