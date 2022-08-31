@@ -9,10 +9,14 @@
    - username: Admin 
    - password: the password can be found at: **/var/jenkins_home/secrets/initialAdminPassword**
 
+___
+
 ### Nexus
 **credentials:**
    - username: admin
    - password: the password can be found at: **/nexus-data/admin.password**
+
+___
 
 ### Sonarqube
 **credentials:**
