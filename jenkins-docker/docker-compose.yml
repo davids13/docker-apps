@@ -8,5 +8,3 @@ services:
       - "50000:50000"
     volumes:
       - $PWD/docker-volume-testing:/var/jenkins_home
-      
-# $PWD: This will store the jenkins data in /your/home on the host; /var/jenkins_home: This will store the workspace in /var/jenkins_home

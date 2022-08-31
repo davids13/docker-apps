@@ -1,0 +1,11 @@
+#jenkins
+docker-volume-testing/
+
+#nexus
+nexus-data/
+
+#postgresql
+pgdata/
+
+#sonarqube
+logs/

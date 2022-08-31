@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  sonarqube:
+    image: sonarqube:9.6.1-community
+    container_name: sonarqube-container
+    ports:
+      - "9000:9000"
+    volumes:
+      - $PWD/logs:/opt/sonarqube/logs
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
