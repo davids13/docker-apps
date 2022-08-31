@@ -19,7 +19,7 @@
    - login: admin
    - password: admin
 
-Sonarqube can be run locally in your java project.
+Sonarqube can be run locally in your java project.<br>
 **Steps:**
    - Make sure you have an instance local up
    - The project must be already initialized by git
