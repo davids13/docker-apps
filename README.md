@@ -4,7 +4,6 @@
    - Postgres
    - Sonarqube
 
----
 
 ### Jenkins
 **credentials:**
