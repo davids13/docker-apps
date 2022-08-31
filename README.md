@@ -19,9 +19,9 @@
    - login: admin
    - password: admin
 
-   Sonarqube can be run locally in your java project.<br>
-   **Steps:**
-      - Make sure you have an instance up
-      - The project must be already initialized by git
-      - Add the dependency in plugin section: https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin
-      - Run the maven command in the root project: mvn sonar:sonar -Dsonar.login=[your-sonar-token] **or** mvn sonar:sonar -Dsonar.login=[your-sonar-token] -Dsonar.host.url=http://localhost:9000/
+Sonarqube can be run locally in your java project.
+**Steps:**
+   - Make sure you have an instance local up
+   - The project must be already initialized by git
+   - Add the dependency in plugin section: https://mvnrepository.com/artifact/org.sonarsource.scanner.maven/sonar-maven-plugin
+   - Run the maven command in the root project: mvn sonar:sonar -Dsonar.login=[your-sonar-token] **or** mvn sonar:sonar -Dsonar.login=[your-sonar-token] -Dsonar.host.url=http://localhost:9000/
