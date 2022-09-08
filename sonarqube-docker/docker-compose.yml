@@ -1,4 +1,5 @@
 version: "3.8"
+
 services:
   sonarqube:
     image: sonarqube:9.6.1-community

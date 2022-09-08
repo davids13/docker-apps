@@ -1,4 +1,5 @@
 version: "3.8"
+
 services:
   postgres:
     image: postgres:alpine
@@ -11,6 +12,6 @@ services:
     environment:
         POSTGRES_PASSWORD: postgres
         POSTGRES_USER: postgres
-        #POSTGRES_DB=petfinderdb
+        POSTGRES_DB: db-name
 
 #https://betterprogramming.pub/tired-of-installing-databases-use-docker-instead-7e193be458cf

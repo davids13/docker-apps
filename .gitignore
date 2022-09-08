@@ -9,3 +9,7 @@ pgdata/
 
 #sonarqube
 logs/
+
+#grafana prometheus
+prometheus-config/
+grafana-storage/
