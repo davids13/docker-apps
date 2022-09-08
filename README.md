@@ -8,7 +8,7 @@
 
 ### Jenkins
 **credentials:**
-   - username: Admin 
+   - username: admin 
    - password: the password can be found at: **/var/jenkins_home/secrets/initialAdminPassword**
 
 ___
