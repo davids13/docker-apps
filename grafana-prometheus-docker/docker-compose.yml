@@ -11,6 +11,7 @@ services:
     environment:
       - GF_INSTALL_PLUGINS=grafana-clock-panel,grafana-simple-json-datasource
       - GF_LOG_MODE=console file
+    depends_on: prometheus
     networks:
       - grafana
   prometheus:
