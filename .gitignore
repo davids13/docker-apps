@@ -13,3 +13,6 @@ logs/
 #grafana prometheus
 prometheus-config/
 grafana-storage/
+
+# others
+.DS_Store

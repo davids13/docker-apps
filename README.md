@@ -1,6 +1,7 @@
 ## List of apps:
    - Jenkins
    - Nexus
+   - Kafka
    - Postgres
    - Sonarqube
    - Grafana & Prometheus
@@ -10,6 +11,14 @@
 **credentials:**
    - username: admin 
    - password: the password can be found at: **/var/jenkins_home/secrets/initialAdminPassword**
+
+___
+
+### Kafka
+**Environment:**
+Enter your machine name
+   - KAFKA_ZOOKEEPER_CONNECT=<your-machine-name>:2181
+   - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://<your-machine-name>:9092
 
 ___
 
@@ -26,7 +35,7 @@ ___
 ### Sonarqube
 **credentials:**
    - login: admin
-   - password: admin
+   - password: admin123
 
 Sonarqube can be run locally in your java project.<br>
 **Steps:**
@@ -37,7 +46,7 @@ Sonarqube can be run locally in your java project.<br>
 
 ___
 
-Grafana
+### Grafana
 **credentials:**
    - login: admin
    - password: admin
