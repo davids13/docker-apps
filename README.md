@@ -50,3 +50,11 @@ ___
 **credentials:**
    - login: admin
    - password: admin
+
+---
+
+### PostgreSQL
+    - to access psql enter the folowing cmd:
+        > winpty docker exec -it postgres-container sh
+        > psql --username postgres
+        > test it by run the cmd to show all database: \l

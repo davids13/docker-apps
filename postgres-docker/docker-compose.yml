@@ -13,5 +13,3 @@ services:
         POSTGRES_PASSWORD: postgres
         POSTGRES_USER: postgres
         POSTGRES_DB: db-name
-
-#https://betterprogramming.pub/tired-of-installing-databases-use-docker-instead-7e193be458cf
